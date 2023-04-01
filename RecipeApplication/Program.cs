@@ -1,4 +1,5 @@
 using Infrastructure;
+using Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,7 +9,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddDbContext<AppDbContext>(
     options => 
         options.UseSqlServer(connString));
-
+builder.Services.AddScoped<RecipeService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

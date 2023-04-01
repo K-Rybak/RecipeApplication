@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeApplication", "RecipeApplication\RecipeApplication.csproj", "{87D6D1EE-14DE-40D2-AA31-2D1258D652CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeApplication", "RecipeApplication\RecipeApplication.csproj", "{87D6D1EE-14DE-40D2-AA31-2D1258D652CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{A6D81793-3432-4CB4-BD6B-3A9850A18A7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{A6D81793-3432-4CB4-BD6B-3A9850A18A7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9473D25A-3B31-4D2A-AF47-1C1CC3592FD6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
